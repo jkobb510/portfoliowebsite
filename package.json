@@ -2,8 +2,8 @@
   "private": true,
   "name": "cara",
   "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
-  "version": "0.2.10",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "version": "0.2.14",
+  "author": "LekoArts",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
@@ -16,29 +16,18 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^2.0.0",
-    "gatsby": "^3.6.1",
-    "gatsby-plugin-gatsby-cloud": "^2.6.1",
-    "gatsby-plugin-google-analytics": "^3.6.0",
-    "gatsby-plugin-manifest": "^3.6.0",
-    "gatsby-plugin-netlify": "^3.6.1",
-    "gatsby-plugin-offline": "^4.6.0",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
-    "joi": "^17.4.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@lekoarts/gatsby-theme-cara": "^5.0.5",
+    "gatsby": "^5.5.0",
+    "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.30",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
-  },
-  "main": "gatsby-config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jkobb510/PortfolioSite.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/jkobb510/PortfolioSite/issues"
-  },
-  "homepage": "https://github.com/jkobb510/PortfolioSite/src"
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.9.4"
+  }
 }
