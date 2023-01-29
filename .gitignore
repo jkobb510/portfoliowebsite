@@ -1,2 +1,14 @@
 *.node_modules
 node_modules
+# dotenv environment variables file
+.env
+.env.*
+!.env.example
+
+.cache
+**/.cache
+public
+
+.idea
+.vscode
+.DS_Store
